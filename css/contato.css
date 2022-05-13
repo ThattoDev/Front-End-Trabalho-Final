@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(85, 202, 221, 1) 0%, rgba(31, 138, 182, 1) 28%, rgba(11, 150, 186, 1) 60%, rgba(55, 86, 175, 1) 89%);
+    
+}
+
+header {
+    height: 70px;
+    color: chartreuse;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin-bottom: 80px;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    height: 70vh;
+}
+
+.row1 {
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.row2 {
+    height: 40%;
+}
+
+h2 {
+    text-align: center;
+    color: #158ADE;
+    font-family: "Russo One"
+}
+
+h5 {
+    color: #158ADE;
+    font-family: "Russo One";
+}
+
+.offcanvas {
+    color: #158ADE;
+    
+}
+
+.btn b1,
+.btn b2,
+.btn b3 {
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.col {
+    align-items: center;
+}
+
+.img-responsive {
+    width: 339px;
+}
+
+#demo {
+    text-align: left;
+}
+
+.offcanvas-title {
+    font-family: "Russo One";
+}
+
+
+.txt {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+
+footer {
+    height: 80px;
+    background: #042071;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.ancoraRodape {
+    font-family: 'Monstserrat';
+    color: white;
+    font-size: 30px;
+    background-color: #042071;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+
+.ancoraRodape:hover {
+    box-shadow: 5px 10px 18px rgba(21, 157, 191, 0.39);
+}
+
+@media (max-width: 576px) {
+    .img-responsive {
+        width: 300px;
+    }
+    .texto {
+        font-size: 15px;
+    }
+}
+#a1{
+    border: solid 1px rgb(161, 136, 136);
+    border-right: 0px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#a2{
+    border: solid 1px rgb(161, 136, 136);
+    border-radius: 0px 30px 30px 0px;
+}
+.ancoraRodape:hover {
+    box-shadow: 5px 10px 18px rgba(21, 157, 191, 0.39);
+}
+.iconfooter:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}

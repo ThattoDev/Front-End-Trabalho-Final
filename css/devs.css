@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(85, 202, 221, 1) 0%, rgba(31, 138, 182, 1) 28%, rgba(11, 150, 186, 1) 60%, rgba(55, 86, 175, 1) 89%);
+}
+
+header {
+    height: 70px;
+    color: chartreuse;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+.team-area {
+    justify-content: space-between;
+    margin: 80px;
+    display: grid;
+}
+
+.container {
+    align-items: 20%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-family: "Russo One";
+}
+
+.imagem {
+    width: 70%;
+    height: 80%;
+    border-radius: 50%;
+    padding-top: 20px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col {
+    margin-top: 5px;
+    width: 100vw;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px 5px rgba(37, 146, 179, 0.308);
+}
+
+.btn {
+    margin: 2px;
+    border-radius: 7px 29px 5px 16pt;
+}
+.btlogin{
+    border-radius: 8%;
+    color: black;
+}
+
+footer {
+    height: 90px;
+    background: #042071;
+    text-align: center;
+    justify-content: space-around;
+    bottom: 0;
+}
+
+.ancoraRodape {
+    font-family: 'Monstserrat';
+    color: white;
+    font-size: 30px;
+    background-color: #042071;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+
+.ancoraRodape:hover {
+    box-shadow: 5px 10px 18px rgba(21, 157, 191, 0.39);
+}
+#a1{
+    border: solid 1px rgb(161, 136, 136);
+    border-right: 0px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#a2{
+    border: solid 1px rgb(161, 136, 136);
+    border-radius: 0px 30px 30px 0px;
+}
+.ancoraRodape:hover {
+    box-shadow: 5px 10px 18px rgba(21, 157, 191, 0.39);
+}
+.iconfooter:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+.card:hover {
+    box-shadow: 5px 5px 5px 5px rgba(25, 31, 32, 0.508);
+}
